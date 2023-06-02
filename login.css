@@ -1,0 +1,79 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(167, 34, 34, 0.52);
+    font-family: 'Arial';
+background-image: url(jalebi.jpg);
+background-size: cover;
+    overflow: hidden;
+}
+.login{
+        width: 291px;
+        overflow: hidden;
+        margin: auto;
+       padding: 40px;
+        background: rgba(19, 161, 218, 0.478);
+        border-radius: 15px ;
+        margin-top: 4%;
+        padding-left: 10%;
+        align-items: center;
+        justify-content: center;
+
+
+}
+h2{
+    text-align: center;
+    color: #ffffffc8;
+    padding: 2px;
+}
+label{
+    color: rgba(238, 230, 230, 0.594);
+    font-size: 17px;
+}
+#form{
+    width: 175px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    top: 20%;
+    padding-left: 10%;
+}
+
+#heading{
+    font: size x-large;;
+    font-family:cursive
+}
+span{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+ a{
+  
+    font-size: 0.4cm;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    border: 2px solid rgb(0, 17, 255);
+    border-radius: 160px;
+    color: rgba(255, 102, 47, 0.377);
+
+    width: 100px;
+    /* margin-top: 20px; */
+    background: transparent;
+    cursor: pointer;
+     transition: 3s; 
+    display: flex;
+    justify-content: center;
+     margin-left: 15%;
+    
+}
+button :hover{
+    box-shadow:gold;
+    transition: 2s;
+}
+
+

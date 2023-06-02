@@ -1,0 +1,92 @@
+* {
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    /* background-color: rgba(68, 152, 226, 0.45); */
+     background-image: url(wallpaper2you_145164.jpg);  
+     background-size: cover;
+     position: relative;
+  
+}
+
+.card {
+  float: left;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(242, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 20px;
+  border-radius: 15px;
+  padding-right: 1rem;
+  background-color:wheat;
+  width: 270px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.631);
+  color: white;
+  
+  
+
+}
+
+
+.card:hover {
+ box-shadow: 0 16px 32px 0 rgb(0, 204, 255);
+ pointer:pointer;
+ 
+}
+
+div.container img {
+  width: 282px;
+  height: 137px;
+ }
+button{
+  width: 300px;
+  height: 30px;
+  margin-left: 30%;
+  color: brown;
+  padding-left: 10%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.contento{
+  margin-left:20%;
+  
+
+
+}
+.button a{
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+  background: rgba(66, 2, 2, 0.395);
+  padding-top: 30%;
+
+}
+#button{
+  padding: 2px;
+  color: black;
+  border-radius: 11px;
+  background: none;
+  border: 2px solid white;
+  color: rgba(5, 213, 255, 0.751);
+  width: 20;
+
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+text{
+  color: aqua;
+font-size: 1cm;
+}
+#text16{
+   font-size: 30PX;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(171, 18, 18, 0.753); 
+  
+}
+
